@@ -1,0 +1,297 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\QZJ_NetKeeper_Cracker.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 191, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,20,20
+    LTEXT           "HOHO``",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) Nov30th.Com",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,16,159,158,35,WS_GROUP
+    EDITTEXT        IDC_EDIT1,16,42,158,110,ES_MULTILINE | ES_AUTOHSCROLL
+END
+
+IDD_QZJ_NETKEEPER_CRACKER_DIALOG DIALOGEX 0, 0, 231, 269
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW
+MENU IDR_MENU1
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,173,218,65
+    LTEXT           "用户名",IDC_STATIC,18,188,22,8
+    LTEXT           "密   码",IDC_STATIC,19,204,22,8
+    EDITTEXT        IDC_USER,44,187,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASS,44,203,90,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "获得唯一性用户名",IDC_BUTTONLOGIN,139,186,78,32
+    CONTROL         "保存用户名和密码",IDC_CHECKREMEMBER,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,18,222,65,11
+    CONTROL         "开机启动后自动连接",IDC_CHECKAUTORUN,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,93,222,73,11
+    CONTROL         159,IDC_STATIC,"Static",SS_BITMAP,7,7,217,163
+    EDITTEXT        IDC_EDITRESULTNAME,7,242,217,18,ES_AUTOHSCROLL
+END
+
+IDD_DIALCHAT DIALOGEX 0, 0, 316, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "杭电极速内部通讯"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_MESSAGE_LIST,11,44,294,99,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    EDITTEXT        IDC_MESSAGE_SEND,11,147,209,23,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "发送",IDC_BTN_SEND,226,147,79,23,WS_DISABLED
+    GROUPBOX        "",IDC_STATIC,7,7,140,26
+    GROUPBOX        "",IDC_STATIC,7,34,302,140
+    EDITTEXT        IDC_EDITNICKNAME,38,16,58,13,ES_AUTOHSCROLL
+    LTEXT           "昵称:",IDC_STATIC,15,17,20,8
+    PUSHBUTTON      "修改",IDC_BTNCHANGE,100,15,40,14
+    GROUPBOX        "",IDC_STATIC,169,7,140,26
+    PUSHBUTTON      "重新连接",IDC_BTNEXIT,175,15,89,14
+    PUSHBUTTON      "加入",IDC_BTNLOGIN,222,15,43,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "鸟人",IDC_BTNBIRD,277,15,27,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 20,0,0,8
+ PRODUCTVERSION 20,0,0,8
+ FILEFLAGSMASK 0x1fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "Nov30th.Com"
+            VALUE "FileDescription", "杭电极速"
+            VALUE "FileVersion", "10.0.0"
+            VALUE "InternalName", "NetKeeper"
+            VALUE "LegalCopyright", "2008 (C) Nov30th.Com。保留所有权利。"
+            VALUE "OriginalFilename", "NetKeeper.exe"
+            VALUE "ProductName", "Nov30th NetKeeper"
+            VALUE "ProductVersion", "20.0.0.8"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_QZJ_NETKEEPER_CRACKER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 260
+        HORZGUIDE, 53
+    END
+
+    IDD_DIALCHAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_242                 RT_MANIFEST             "res\\XPStyle.Manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMSN              BITMAP                  "res\\skinmine.bmp"
+IDB_BITPIC              BITMAP                  "res\\pic.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "G:\\闪讯\\QZJ_NetKeeper_Cracker\\res\\config.ico"
+IDI_OFFLINE             ICON                    "g:\\闪讯\\qzj_netkeeper_cracker\\res\\icon2.ico"
+IDI_ONLINE              ICON                    "g:\\闪讯\\qzj_netkeeper_cracker\\res\\icon3.ico"
+IDI_LOGOUT              ICON                    "res\\Logout.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "信息"
+    BEGIN
+        MENUITEM "反馈信息",                        ID_32771
+        MENUITEM "关于作者",                        ID_32772
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                          ID_32774
+    END
+    POPUP "证书"
+    BEGIN
+        MENUITEM "HOHO证书",                      ID_32778
+        MENUITEM "闪讯证书",                        ID_32777
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "升级",                          ID_Update
+        MENUITEM "关于",                          ID_32773
+    END
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "托盘右键"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "反馈信息",                        ID_32801
+        MENUITEM "HOHO`` 主页",                   ID_32803
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                          ID_32799
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于杭电极速(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\QZJ_NetKeeper_Cracker.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

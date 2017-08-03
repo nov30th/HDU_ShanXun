@@ -1,0 +1,3 @@
+#define WM_SHOWTASK   (WM_USER + 0x100)
+#define WM_SHOWCHATWIN   (WM_USER + 0x101)
+#define WM_SHOWCHATICO   (WM_USER + 0x102)
