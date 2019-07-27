@@ -1,63 +1,7 @@
-================================================================================
-MICROSOFT »ù´¡Àà¿â: QZJ_NetKeeper_Cracker ÏîÄ¿¸ÅÊö
-===============================================================================
+Year 2008 Project
 
-Ó¦ÓÃ³ÌÐòÏòµ¼ÒÑÎªÄú´´½¨ÁËÕâ¸ö QZJ_NetKeeper_Cracker Ó¦ÓÃ³ÌÐò¡£´ËÓ¦ÓÃ³ÌÐò²»½öÑÝÊ¾ Microsoft »ù´¡ÀàµÄ»ù±¾Ê¹ÓÃ·½·¨£¬»¹¿É×÷ÎªÄú±àÐ´Ó¦ÓÃ³ÌÐòµÄÆðµã¡£
+æ­ç”µæžé€Ÿ å±±å¯¨é—ªè®¯
+å¾ˆå¯æƒœå½“æ—¶å½“æ—¶å¾ˆå¤šå…¶ä»–æµ™æ±Ÿå­¦æ ¡æƒ³ä½¿ç”¨è¿™ä¸ªä¸œè¥¿ï¼Œå¯æ˜¯æˆ‘å½“æ—¶å¾ˆæ‹½æ²¡æœ‰åˆ†äº«å‡ºæ¥ã€‚
+åªåœ¨æ­å·žç”µå­ç§‘æŠ€å¤§å­¦å†…éƒ¨çš„çº¢è‰²å®¶å›­bbså‘å¸ƒã€‚
 
-±¾ÎÄ¼þ¸ÅÒª½éÉÜ×é³É QZJ_NetKeeper_Cracker Ó¦ÓÃ³ÌÐòµÄÃ¿¸öÎÄ¼þµÄÄÚÈÝ¡£
-
-QZJ_NetKeeper_Cracker.vcproj
-ÕâÊÇÊ¹ÓÃÓ¦ÓÃ³ÌÐòÏòµ¼Éú³ÉµÄ VC++ ÏîÄ¿µÄÖ÷ÏîÄ¿ÎÄ¼þ¡£ 
-Ëü°üº¬Éú³É¸ÃÎÄ¼þµÄ Visual C++ µÄ°æ±¾ÐÅÏ¢£¬ÒÔ¼°ÓÐ¹ØÊ¹ÓÃÓ¦ÓÃ³ÌÐòÏòµ¼Ñ¡ÔñµÄÆ½Ì¨¡¢ÅäÖÃºÍÏîÄ¿¹¦ÄÜµÄÐÅÏ¢¡£
-
-QZJ_NetKeeper_Cracker.h
-ÕâÊÇÓ¦ÓÃ³ÌÐòµÄÖ÷ÒªÍ·ÎÄ¼þ¡£Ëü°üÀ¨ÆäËûÏîÄ¿ÌØ¶¨µÄÍ·ÎÄ¼þ(°üÀ¨ Resource.h)£¬²¢ÉùÃ÷ CQZJ_NetKeeper_CrackerApp Ó¦ÓÃ³ÌÐòÀà¡£
-
-QZJ_NetKeeper_Cracker.cpp
-ÕâÊÇ°üº¬Ó¦ÓÃ³ÌÐòÀà CQZJ_NetKeeper_CrackerApp µÄÖ÷ÒªÓ¦ÓÃ³ÌÐòÔ´ÎÄ¼þ¡£
-
-QZJ_NetKeeper_Cracker.rc
-ÕâÊÇ³ÌÐòÊ¹ÓÃµÄËùÓÐ Microsoft Windows ×ÊÔ´µÄÁÐ±í¡£Ëü°üÀ¨ RES ×ÓÄ¿Â¼ÖÐ´æ´¢µÄÍ¼±ê¡¢Î»Í¼ºÍ¹â±ê¡£´ËÎÄ¼þ¿ÉÒÔÖ±½ÓÔÚ Microsoft Visual C++ ÖÐ½øÐÐ±à¼­¡£ÏîÄ¿×ÊÔ´Î»ÓÚ 2052 ÖÐ¡£
-
-res\QZJ_NetKeeper_Cracker.ico
-ÕâÊÇÓÃ×÷Ó¦ÓÃ³ÌÐòÍ¼±êµÄÍ¼±êÎÄ¼þ¡£´ËÍ¼±ê°üÀ¨ÔÚÖ÷Òª×ÊÔ´ÎÄ¼þ QZJ_NetKeeper_Cracker.rc ÖÐ¡£
-
-res\QZJ_NetKeeper_Cracker.rc2
-´ËÎÄ¼þ°üº¬²»ÔÚ Microsoft Visual C++ ÖÐ½øÐÐ±à¼­µÄ×ÊÔ´¡£ÄúÓ¦¸Ã½«²»¿ÉÓÉ×ÊÔ´±à¼­Æ÷±à¼­µÄËùÓÐ×ÊÔ´·ÅÔÚ´ËÎÄ¼þÖÐ¡£
-
-
-/////////////////////////////////////////////////////////////////////////////
-
-Ó¦ÓÃ³ÌÐòÏòµ¼´´½¨Ò»¸ö¶Ô»°¿òÀà:
-
-QZJ_NetKeeper_CrackerDlg.h£¬QZJ_NetKeeper_CrackerDlg.cpp - ¶Ô»°¿ò
-ÕâÐ©ÎÄ¼þ°üº¬ CQZJ_NetKeeper_CrackerDlg Àà¡£¸ÃÀà¶¨ÒåÓ¦ÓÃ³ÌÐòÖ÷¶Ô»°¿òµÄÐÐÎª¡£¸Ã¶Ô»°¿òµÄÄ£°åÎ»ÓÚ QZJ_NetKeeper_Cracker.rc ÖÐ£¬¸ÃÎÄ¼þ¿ÉÒÔÔÚ Microsoft Visual C++ ÖÐ½øÐÐ±à¼­¡£
-
-
-/////////////////////////////////////////////////////////////////////////////
-
-ÆäËû±ê×¼ÎÄ¼þ:
-
-StdAfx.h£¬StdAfx.cpp
-ÕâÐ©ÎÄ¼þÓÃÓÚÉú³ÉÃûÎª QZJ_NetKeeper_Cracker.pch µÄÔ¤±àÒëÍ· (PCH) ÎÄ¼þºÍÃûÎª StdAfx.obj µÄÔ¤±àÒëÀàÐÍÎÄ¼þ¡£
-
-Resource.h
-ÕâÊÇ±ê×¼Í·ÎÄ¼þ£¬Ëü¶¨ÒåÐÂµÄ×ÊÔ´ ID¡£
-Microsoft Visual C++ ¶ÁÈ¡²¢¸üÐÂ´ËÎÄ¼þ¡£
-
-QZJ_NetKeeper_Cracker.manifest
-	Ó¦ÓÃ³ÌÐòÇåµ¥ÎÄ¼þ¹© Windows XP ÓÃÀ´ÃèÊöÓ¦ÓÃ³ÌÐò
-	¶ÔÌØ¶¨°æ±¾²¢ÐÐ³ÌÐò¼¯µÄÒÀÀµÐÔ¡£¼ÓÔØ³ÌÐòÊ¹ÓÃ´Ë
-	ÐÅÏ¢´Ó³ÌÐò¼¯»º´æ¼ÓÔØÊÊµ±µÄ³ÌÐò¼¯»ò
-	´ÓÓ¦ÓÃ³ÌÐò¼ÓÔØË½ÓÐÐÅÏ¢¡£Ó¦ÓÃ³ÌÐòÇåµ¥¿ÉÄÜÎªÁËÖØÐÂ·Ö·¢¶ø×÷Îª
-	ÓëÓ¦ÓÃ³ÌÐò¿ÉÖ´ÐÐÎÄ¼þ°²×°ÔÚÏàÍ¬ÎÄ¼þ¼ÐÖÐµÄÍâ²¿ .manifest ÎÄ¼þ°üÀ¨£¬
-	Ò²¿ÉÄÜÒÔ×ÊÔ´µÄÐÎÊ½°üÀ¨ÔÚ¸Ã¿ÉÖ´ÐÐÎÄ¼þÖÐ¡£ 
-/////////////////////////////////////////////////////////////////////////////
-
-ÆäËû×¢ÊÍ:
-
-Ó¦ÓÃ³ÌÐòÏòµ¼Ê¹ÓÃ¡°TODO:¡±Ö¸Ê¾Ó¦Ìí¼Ó»ò×Ô¶¨ÒåµÄÔ´´úÂë²¿·Ö¡£
-
-Èç¹ûÓ¦ÓÃ³ÌÐòÔÚ¹²ÏíµÄ DLL ÖÐÊ¹ÓÃ MFC£¬ÔòÐèÒªÖØÐÂ·¢²¼ÕâÐ© MFC DLL£»Èç¹ûÓ¦ÓÃ³ÌÐòËùÓÃµÄÓïÑÔÓë²Ù×÷ÏµÍ³µÄµ±Ç°ÇøÓòÉèÖÃ²»Í¬£¬Ôò»¹ÐèÒªÖØÐÂ·¢²¼¶ÔÓ¦µÄ±¾µØ»¯×ÊÔ´ MFC90XXX.DLL¡£ÓÐ¹ØÕâÁ½¸öÖ÷ÌâµÄ¸ü¶àÐÅÏ¢£¬Çë²Î¼û MSDN ÎÄµµÖÐÓÐ¹Ø Redistributing Visual C++ applications (ÖØÐÂ·¢²¼ Visual C++ Ó¦ÓÃ³ÌÐò)µÄÕÂ½Ú¡£
-
-/////////////////////////////////////////////////////////////////////////////
+çŽ°åœ¨æƒ³æƒ³é‚£ä¹ˆå¥½æˆåçš„æœºä¼šï¼Œæˆ‘ä¸ºä»€ä¹ˆè¦ç”¨åŒ–åå’Œé™åˆ¶ä½¿ç”¨å‘¢hhhhhã€‚
